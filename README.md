@@ -3,6 +3,8 @@ opencv-android-starter-project
 
 OpenCV Android Starter Project
 
+Version 0.1 (this is the initial version and has not been fully tested)
+
 ##Prerequisites
 * Eclipse must be installed
 * You must have an Android Device with a Camera
