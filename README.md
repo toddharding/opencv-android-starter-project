@@ -7,7 +7,7 @@ OpenCV Android Starter Project
 * Eclipse must be installed
 * You must have an Android Device with a Camera
 
-##How to use
+##How to setup your development environment
 1. Download or pull repo
 2. Download the OpenCV for Android Library from http://opencv.org/downloads.html
 3. Extract the OpenCV library to a folder of your choice
@@ -20,4 +20,37 @@ OpenCV Android Starter Project
 10. Select only the OpenCV Library from the list
 11. Untick Copy projects into workspace
 12. Press finish
-13. Attempt to run this application
+13. Attempt to run the application, you should see a camera feed
+
+##How to use the code
+open the ProcessImageFragment.java file you will see this:
+
+```Java
+public class ProcessImageFragment extends CameraViewFragment
+{
+
+	/**
+	 * To process the camera frame use the inputFrame variable
+	 * in this method, call inputFrame.rgba() to get
+	 * a colour frame.
+	 */
+	@Override
+	public Mat onCameraFrame(CvCameraViewFrame inputFrame)
+	{
+		// Get the Colour Frame
+		Mat myFrame = inputFrame.rgba();
+
+		/**
+		 * Place your image processing code here
+		 */
+
+		// Return the processed frame 
+		return myFrame;
+	}
+
+}
+```
+Place your image processing code in the OnCameraFrame method
+
+
+
