@@ -6,6 +6,7 @@ OpenCV Android Starter Project
 ##Prerequisites
 * Eclipse must be installed
 * You must have an Android Device with a Camera
+
 ##How to use
 1. Download or pull repo
 2. Download the OpenCV for Android Library from http://opencv.org/downloads.html
