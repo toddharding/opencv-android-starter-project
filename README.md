@@ -22,7 +22,11 @@ Version 0.1 (this is the initial version and has not been fully tested)
 10. Select only the OpenCV Library from the list
 11. Untick Copy projects into workspace
 12. Press finish
-13. Attempt to run the application, you should see a camera feed
+13. Right click on the computer vision project and then press properties
+14. Select Android->Library->Add...
+15. Select the OpenCV Library and press OK
+16. Press OK
+17. Attempt to run the application, you should see a camera feed
 
 ##How to use the code
 open the ProcessImageFragment.java file you will see this:
