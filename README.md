@@ -10,7 +10,7 @@ Version 0.1 (this is the initial version and has not been fully tested)
 * You must have an Android Device with a Camera
 
 ##How to setup your development environment
-1. Download or pull repo
+1. Download or clone repository
 2. Download the OpenCV for Android Library from http://opencv.org/downloads.html
 3. Extract the OpenCV library to a folder of your choice
 4. Open your eclipse workspace and press File->Import->General->Existing Projects into Workspace, then press next
