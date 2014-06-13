@@ -28,6 +28,12 @@ Version 0.1 (this is the initial version and has not been fully tested)
 16. Press OK
 17. Attempt to run the application, you should see a camera feed
 
+##Troubleshooting
+###Ubuntu 14.04
+you may be required to install the lib32zl package
+
+
+
 ##How to use the code
 open the ProcessImageFragment.java file you will see this:
 
